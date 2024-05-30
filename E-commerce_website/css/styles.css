@@ -1,0 +1,225 @@
+body{
+    font-family: Arial;
+    font-size: 20px;
+    background-color: #f4f4f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eae1e1;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.logo img {
+    height: 60px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    font-size: 19px;
+    color: rgb(214, 65, 65);
+}
+
+main{
+    padding: 20px;
+    
+}
+
+#landing{
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('header.png');
+    background-size: cover;
+    color: #ffffff;
+
+}
+#landing h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+#landing p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#landing a{
+    color: white;
+    background-color: #d62828;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#landing a:hover{
+    transition: .1s;
+    background-color: #0a2852;
+    color: #eb2456;
+    size: 100px;
+}
+
+.Categories{
+    background-color: #0a2852;
+    color: #ffffff;
+    padding: 20px;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0a2852;
+}
+.box{
+    list-style: none;
+    height: 560px;
+    width: 32%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+}
+.box h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.box-image{
+    margin-left: 10px;
+    height: 85%;
+    width: 100%;
+    background-size: cover;
+    justify-content: space-between;
+}
+.box-image img{
+    
+    width: 95%;
+    height:100%;
+}
+
+.box a{
+    padding: 20px;
+    align-items: center;
+    background-color: #34495E;
+    text-decoration: none;
+    color: #f4f4f4;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+.box a:hover{
+    transition: .1s;
+    background-color: #d45c5c;
+    color: rgb(255, 255, 255);
+}
+
+.about_us{
+    margin-top: 50px;
+    background-image: url("light_background.png");
+    background-size: 1200px 900px;
+}
+.about_us .about_company{
+    padding: 15px;
+    text-align: center;
+}
+.about_us .about_company p{
+    text-align: center;
+    font-size: 14px;
+    font-style: none;
+    font-family: 'Times New Roman',;
+}
+.about_us .missions{
+    padding: 15px;
+    text-align: center;
+}
+.about_us .missions p{
+    text-align: center;
+    font-size: 14px;
+    font-style: none;
+    font-family: 'Times New Roman';
+}
+.about_us h2{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 25px;
+    color: #1B2631;
+}
+.missions span b{
+    font-size: 20px;
+    font-weight: bold;
+    color: #34495E;
+    text-decoration:underline;
+}
+
+footer{
+    background: rgb(229, 235, 238);
+    padding-top:30px;
+    display: flex;
+}
+footer h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+footer .footer-container{
+    padding-top: 10px;
+    padding-bottom: 35px;
+    display:flex;
+    justify-content: space-around;
+}
+footer .footer-container .footer-logo img{
+    width:100px;
+}
+.online-links{
+    margin-left: 20px;
+    
+}
+.customer-policies {
+    text-decoration: none;
+    color: #1B2631;
+    margin-left: 20px;
+}
+.mobile-app{
+    margin-left: 20px;
+   
+}
+.original{
+    margin-left: 20px;
+}
+.contact{
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 500px;
+}
+.icons i{
+margin-left: 10px;
+color: black;
+}
+.icons i:hover{
+    transition: .5s;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: rgb(197, 74, 74);
+}

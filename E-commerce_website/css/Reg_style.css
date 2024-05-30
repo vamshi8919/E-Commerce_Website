@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;
+    background-image: url("watermark1.png");
+    
+}
+
+form{
+    background-color: rgba(238, 213, 227, 0);
+    width: 380px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+img{
+    width: 100%;
+    overflow: hidden;
+}
+#reg_1 h1{
+}
+div{
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+small{
+    visibility: hidden;
+    left: 10px;
+    bottom: -20;
+    position: absolute;
+    color: rgb(24, 24, 24);
+}
+input.error{
+    border-color: black ;
+}
+.form-control.error small {
+    visibility: visible;
+}
+.password{
+    margin-bottom: 20px;
+}
+#reg_1 button{
+    background-color: rgba(235, 19, 59, 0.658);
+    padding: 8px;
+    width: 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    
+}
+#reg_1 button:hover{
+    color: white;
+    background-color: #0a2852;
+}
